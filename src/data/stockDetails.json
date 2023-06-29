@@ -1,0 +1,164 @@
+[
+  {
+    "company": "3M",
+    "price": 44.28,
+    "pandl": -0.23,
+    "symbol": "MMM"
+  },
+  {
+    "company": "Nifty Bank",
+    "price": 41559.4,
+    "pandl": 0.01,
+    "symbol": "NIFTYBANK"
+  },
+  {
+    "company": "Bajaj Finance",
+    "price": 6435.5,
+    "pandl": -0.3,
+    "symbol": "BAJFINANCE"
+  },
+  {
+    "company": "Bhartiya Airtel",
+    "price": 771.95,
+    "pandl": -0.69,
+    "symbol": "BHARTIARTL"
+  },
+  {
+    "company": "HDFC bank",
+    "price": 1657.1,
+    "pandl": -0.4,
+    "symbol": "HDFCBANK"
+  },
+  {
+    "company": "Hindustan Uniliver",
+    "price": 2577.5,
+    "pandl": -0.36,
+    "symbol": "HINDUNILVR"
+  },
+  {
+    "company": "Amazon.com",
+    "price": 89.38,
+    "pandl": 0.36,
+    "symbol": "AMZN"
+  },
+  {
+    "company": "Campbell Soup",
+    "price": 37.0,
+    "pandl": 0.14,
+    "symbol": "CPB"
+  },
+  {
+    "company": "Disney",
+    "price": 40.68,
+    "pandl": -0.12,
+    "symbol": "DIS"
+  },
+  {
+    "company": "Dow Chemical",
+    "price": 38.83,
+    "pandl": 0.18,
+    "symbol": "DOW"
+  },
+  {
+    "company": "Exxon Mobil",
+    "price": 39.0,
+    "pandl": -0.26,
+    "symbol": "XOM"
+  },
+  {
+    "company": "Ford",
+    "price": 27.34,
+    "pandl": -0.19,
+    "symbol": "F"
+  },
+  {
+    "company": "The Gap",
+    "price": 46.0,
+    "pandl": 0.69,
+    "symbol": "GPS"
+  },
+  {
+    "company": "General Mills",
+    "price": 15.59,
+    "pandl": 0.14,
+    "symbol": "GIS"
+  },
+  {
+    "company": "Hewlett Packard",
+    "price": 66.28,
+    "pandl": -0.12,
+    "symbol": "HPQ"
+  },
+  {
+    "company": "IBM",
+    "price": 118.37,
+    "pandl": 0.4,
+    "symbol": "IBM"
+  },
+  {
+    "company": "Johnson & Johnson",
+    "price": 35.13,
+    "pandl": 0.56,
+    "symbol": "JNJ"
+  },
+  {
+    "company": "Microsoft",
+    "price": 55.72,
+    "pandl": -0.48,
+    "symbol": "MSFT"
+  },
+  {
+    "company": "Monsanto",
+    "price": 11.47,
+    "pandl": 0.42,
+    "symbol": "MO"
+  },
+  {
+    "company": "PepsiCo",
+    "price": 34.13,
+    "pandl": 0.12,
+    "symbol": "PEP"
+  },
+  {
+    "company": "Starbucks",
+    "price": 6.23,
+    "pandl": 0.16,
+    "symbol": "SBUX"
+  },
+  {
+    "company": "Texas Instruments",
+    "price": 53.88,
+    "pandl": 0.29,
+    "symbol": "TXN"
+  },
+  {
+    "company": "Time Warner",
+    "price": 221.25,
+    "pandl": -0.39,
+    "symbol": "TWX"
+  },
+  {
+    "company": "United Health",
+    "price": 7.66,
+    "pandl": -0.65,
+    "symbol": "UNH"
+  },
+  {
+    "company": "Walmart",
+    "price": 56.5,
+    "pandl": 0.62,
+    "symbol": "WMT"
+  },
+  {
+    "company": "Whirlpool",
+    "price": 58.25,
+    "pandl": 0.56,
+    "symbol": "WHR"
+  },
+  {
+    "company": "Xerox",
+    "price": 20.87,
+    "pandl": 0.85,
+    "symbol": "XRX"
+  }
+]
