@@ -23,8 +23,8 @@ export default {
         },
       },
       animation: {
-        "scroll-right-to-left": "rtl 40s infinite linear",
-        "scroll-left-to-right": "ltr 20s infinite linear",
+        "scroll-right-to-left": "rtl 100s infinite linear",
+        "scroll-left-to-right": "ltr 30s infinite linear",
       },
       keyframes: {
         rtl: {
