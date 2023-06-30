@@ -38,7 +38,7 @@ export default function Navbar() {
 
   return (
     // navbar
-    <nav className="w-full h-16 pl-8 pr-8 bg-white flex items-center gap-8 sticky top-0 left-0 z-[1000] mobile:gap-2 mobile:pl-2 mobile:pr-2">
+    <nav className="w-full h-16 pl-8 pr-8 bg-white flex items-center gap-8 z-[1000] mobile:gap-2 mobile:pl-2 mobile:pr-2">
       {/* logo */}
       <div className="h-full">
         <img src={logo} className="max-h-full" />
@@ -57,10 +57,10 @@ export default function Navbar() {
       {navMenu && (
         <div className="h-full flex-1 flex items-center justify-end gap-4 sm:absolute sm:top-16 sm:left-0 sm:bg-white sm:w-full sm:justify-center xs:text-xs xs:gap-2">
           <button>Contact Us</button>
-          <button className="h-[50%] pl-6 pr-6 border border-gray-600 rounded shadow">
+          <button className="h-[50%] pl-6 pr-6 border border-gray-600 rounded shadow hover:bg-thematicColor hover:text-white">
             SIGN UP
           </button>
-          <button className="h-[50%] pl-6 pr-6 border border-gray-600 rounded shadow">
+          <button className="h-[50%] pl-6 pr-6 border border-gray-600 rounded shadow hover:bg-thematicColor hover:text-white">
             SIGN IN
           </button>
         </div>

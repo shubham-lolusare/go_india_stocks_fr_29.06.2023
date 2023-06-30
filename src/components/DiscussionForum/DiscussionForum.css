@@ -1,0 +1,25 @@
+/* width*/
+.postSection::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.postSection::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.postSection::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+.postSection::-webkit-scrollbar-thumb:hover {
+  background: #14397d;
+}
+
+.postSection {
+  scrollbar-width: thin;
+}

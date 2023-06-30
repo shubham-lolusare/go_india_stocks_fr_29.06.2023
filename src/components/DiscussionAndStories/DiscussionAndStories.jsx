@@ -4,7 +4,7 @@ import SideMenu from "../SideMenu/SideMenu";
 
 export default function DiscussionAndStories() {
   return (
-    <section className="flex-1 flex gap-4">
+    <section className="w-full h-full flex-1 flex gap-4 overflow-hidden">
       <SideMenu />
       <DiscussionForum />
       <MarketStories />
