@@ -1,5 +1,7 @@
+// importing the icons
 import { AiOutlinePlus } from "react-icons/ai";
 
+// importing components
 import DiscussionAndStories from "./components/DiscussionAndStories/DiscussionAndStories";
 import FeatureCompanies from "./components/FeatureCompanies/FeatureCompanies";
 import Navbar from "./components/Navbar/Navbar";

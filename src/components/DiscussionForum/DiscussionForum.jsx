@@ -15,9 +15,6 @@ import {
 // importing discussion data
 import discussion from "../../data/discussions.json";
 
-// importing the css for this component
-import "./DiscussionForum.css";
-
 export default function DiscussionForum() {
   // state to manage the selected filter option
   let [selectedFilter, setSelectedFilter] = useState("");
@@ -62,6 +59,7 @@ export default function DiscussionForum() {
         </div>
 
         <div className="relative h-full w-full flex-1 flex gap-2">
+          {/* search box of filter section */}
           <input
             type="text"
             className="w-full h-full rounded-full bg-bgColor shadow-inner pl-10 text-black focus:outline-none sm:p-1 sm:pl-10"
