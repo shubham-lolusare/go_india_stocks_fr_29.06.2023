@@ -14,7 +14,7 @@ export default function FooterMenu() {
   let [selectedOption, setSelectedOption] = useState("home");
 
   return (
-    <footer className="hidden w-full h-12 text-white text-2xl bg-thematicColor justify-evenly items-center select-none sm:flex xs:text-xl xs:h-10">
+    <footer className="fixed bottom-0 hidden w-full h-12 text-white text-2xl bg-thematicColor justify-evenly items-center select-none sm:flex xs:text-xl xs:h-10">
       {/* analysis option */}
       <div
         className={`w-full h-full flex justify-center items-center ${

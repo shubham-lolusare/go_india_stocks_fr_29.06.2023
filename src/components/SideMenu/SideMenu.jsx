@@ -7,7 +7,7 @@ import { BiSolidDownArrow } from "react-icons/bi";
 import { SiWebmoney } from "react-icons/si";
 
 // importing hooks
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function SideMenu() {
   // state to control the display of aside bar
@@ -15,23 +15,6 @@ export default function SideMenu() {
 
   // state to control highlighting selected option in asidebar
   let [selectedOption, setSelectedOption] = useState("discussion");
-
-  useEffect(() => {
-    // aside will be automatically hide in smaller devices and will only be show when clicked on tray button
-    if (window.innerWidth <= 912) {
-      setShowNav(false);
-    } else {
-      setShowNav(true);
-    }
-
-    window.addEventListener("resize", () => {
-      if (window.innerWidth <= 912) {
-        setShowNav(false);
-      } else {
-        setShowNav(true);
-      }
-    });
-  }, [setShowNav]);
 
   return (
     <aside className="flex select-none sm:absolute sm:top-24 sm:bottom-12 sm:z-[100000] xs:bottom-10">
