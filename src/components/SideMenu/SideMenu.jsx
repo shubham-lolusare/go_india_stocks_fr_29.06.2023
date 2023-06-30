@@ -17,7 +17,7 @@ export default function SideMenu() {
   let [selectedOption, setSelectedOption] = useState("discussion");
 
   return (
-    <aside className="flex select-none sm:absolute sm:top-24 sm:bottom-12 sm:z-[100000] xs:bottom-10">
+    <aside className="flex select-none sm:absolute sm:top-24 sm:bottom-0 sm:z-[10] xs:bottom-10">
       {showNav && (
         // aside bar
         <nav className="w-72 bg-thematicColor flex flex-col  text-white xs:w-56">

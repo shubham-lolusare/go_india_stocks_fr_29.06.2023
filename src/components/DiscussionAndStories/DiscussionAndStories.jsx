@@ -15,7 +15,7 @@ export default function DiscussionAndStories() {
   let [view, setView] = useState("desktop");
 
   // state to manage the selected tab
-  let [tabSelected, setTabSelected] = useState("stories");
+  let [tabSelected, setTabSelected] = useState("discussion");
 
   // the view will automatically adjusted according to the viewport by setting state
   useEffect(() => {

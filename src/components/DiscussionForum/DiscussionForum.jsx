@@ -62,10 +62,10 @@ export default function DiscussionForum() {
           {/* search box of filter section */}
           <input
             type="text"
-            className="w-full h-full rounded-full bg-bgColor shadow-inner pl-10 text-black focus:outline-none sm:p-1 sm:pl-10"
+            className="w-full h-full rounded-full bg-bgColor shadow-inner pl-10 text-black focus:outline-none sm:h-8 xs:h-6 sm:pl-10"
             placeholder="Search here"
           />
-          <RiSearchLine className="text-black absolute top-2 left-2 cursor-pointer" />
+          <RiSearchLine className="text-black absolute top-2 left-2 cursor-pointer xs:top-[6px]" />
 
           {/* button to clear filters */}
           {selectedFilter !== "" && (

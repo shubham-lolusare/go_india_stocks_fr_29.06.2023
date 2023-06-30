@@ -55,7 +55,7 @@ export default function Navbar() {
 
       {/* navbar menu conditionally rendering based on screen size */}
       {navMenu && (
-        <div className="h-full flex-1 flex items-center justify-end gap-4 sm:absolute sm:top-16 sm:left-0 sm:bg-white sm:w-full sm:justify-center xs:text-xs xs:gap-2">
+        <div className="h-full flex-1 flex items-center justify-end gap-4 sm:h-16 sm:absolute sm:top-16 sm:left-0 sm:bg-white sm:w-full sm:justify-center xs:h-12 xs:text-xs xs:gap-2">
           <button>Contact Us</button>
           <button className="h-[50%] pl-6 pr-6 border border-gray-600 rounded shadow hover:bg-thematicColor hover:text-white">
             SIGN UP
